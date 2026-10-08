@@ -1,9 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  experimental: {
-    agentFeedback: true,
+  images: {
+    qualities: [75, 85, 90],
   },
   cacheComponents: true,
   partialPrefetching: true,
